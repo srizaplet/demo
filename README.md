@@ -1,2 +1,2 @@
 # demo
-Demo_for_public
+Demo_purpose
