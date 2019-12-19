@@ -19,7 +19,7 @@ object ProducerExample extends App {
    val TOPIC="test"
 
    for(i<- 1 to 30){
-     val record = new ProducerRecord(TOPIC, "key", s"hello Sree value : $i")
+     val record = new ProducerRecord(TOPIC, "key", s"hello Sree and joe value  is : $i")
      producer.send(record)
      Thread.sleep(1000)
    }
