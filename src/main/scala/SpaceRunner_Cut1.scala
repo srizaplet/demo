@@ -1,20 +1,21 @@
 
+import java.nio.file.Paths
+
 import scalafx.Includes._
 import scalafx.animation.AnimationTimer
 import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.input._
 import scalafx.scene.canvas.Canvas
-import scalafx.scene.media.AudioClip
+import scalafx.scene.media.{AudioClip, Media, MediaPlayer}
 import scalafx.scene.paint._
 import scalafx.scene.image.Image
 import scalafx.scene.shape._
 import scalafx.scene.text._
 import scalafx.scene.{Group, Scene}
+
 import scala.collection.mutable.ArrayBuffer
 import util.control.Breaks._
-
-
 import scala.collection.mutable
 import scala.collection.mutable.Map
 import scala.collection.mutable.LinkedHashSet
@@ -135,8 +136,8 @@ object SpaceRunner_Cut1 extends JFXApp {
 
 
                 if ((dist < 5 + 10)) {
-                  val musicfile = new AudioClip("resources/gameover2.mp3")
-                  musicfile.play()
+                  val musicfile = new Media("file:///Users/sree/Sree_demo/src/main/scala/resources/gameover2.mp3")
+                  new MediaPlayer(musicfile).play()
                   val endText = new Text(250, 300, "Sree Game over   ")
                   endText.fill = Color.Yellow
                   content += endText
@@ -159,7 +160,7 @@ object SpaceRunner_Cut1 extends JFXApp {
                     //println(a)
                     if (dist1 < (b.radiusX.value + 20)) {
                       //println("This is inside : " + ctr + " :  " + enemiesObj.length)
-                      val musicfile = new AudioClip("resources/bullet.wav")
+                      val musicfile = new AudioClip("file:///Users/sree/Sree_demo/src/main/scala/resources/bullet.wav")
                       //musicfile.play()
                       //timer.wait(1000)
                       //timer.wait(3000)
