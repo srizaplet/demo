@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20191217215844"/>
+		date="20191218182413"/>
 	<dependencies>
 		<module organisation="org.apache.kafka" name="kafka-clients">
 			<revision name="2.2.1" status="release" pubdate="20190513101218" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="139">

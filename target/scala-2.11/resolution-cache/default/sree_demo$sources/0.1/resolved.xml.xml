@@ -4,7 +4,7 @@
 		module="sree_demo$sources"
 		revision="0.1"
 		status="integration"
-		publication="20191217215844"
+		publication="20191218182413"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

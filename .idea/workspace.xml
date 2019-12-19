@@ -2,46 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da1ac3f-822a-493c-aa74-0f143786f42b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648947000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648948000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648949000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648950000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648951000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648952000.bk.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648952000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648953000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648954000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.checkpoint-1576648955000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648947000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648948000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648949000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648950000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648951000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648952000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648952000.bk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648953000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648954000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/checkpoint-1576648955000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/receivedBlockMetadata/log-1576648853005-1576648913005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/receivedBlockMetadata/log-1576648914003-1576648974003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/PopularHashTags.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PopularHashTags.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ScalaJsonSpark.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ScalaJsonSpark.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SpaceRunner_Cut1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SpaceRunner_Cut1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/PopularHashtags$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/PopularHashtags$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1$$anonfun$apply$mcVJ$sp$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1$$anonfun$apply$mcVJ$sp$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1$$anonfun$apply$mcVJ$sp$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1$$anonfun$apply$mcVJ$sp$1$$anonfun$apply$mcV$sp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1$$anonfun$apply$mcVJ$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1$$anonfun$apply$mcVJ$sp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SpaceRunner_Cut1$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/enemies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/enemies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/sree_demo$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/sree_demo$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/sree_demo$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/sree_demo$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-sree_demo$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,14 +57,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaJsonSpark.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -102,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/PopularHashTags.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -168,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="564">
-              <caret line="49" column="68" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="68" />
+              <caret line="49" column="68" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -196,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/SpaceRunner_Cut1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/PopularHashTags.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaJsonSpark.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -241,6 +231,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sree_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Sree_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +368,6 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3141202269000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="1474346668" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
@@ -393,7 +390,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,7 +403,7 @@
       <window_info id="Learn" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43265307" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43265307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,7 +479,7 @@
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
-          <caret line="49" column="68" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="68" />
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -496,7 +493,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/PopularHashTags.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -506,10 +503,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaJsonSpark.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
