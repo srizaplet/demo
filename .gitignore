@@ -1,0 +1,9 @@
+**/resources
+resources/**/*.log
+**/target
+.bashrc
+.idea/*
+resources/*
+**/.idea
+target/*
+.idea

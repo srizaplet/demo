@@ -39,7 +39,7 @@ object ScalaJsonSpark {
          "interest": 0.11
     }]
 }"""
-    
+
     val vData = Seq(rec1,rec2)
     val productIdToNameMap = Map("i1" -> "Nike Shoes", "i2" -> "Umbrella", "i3" -> "Jeans")
 
