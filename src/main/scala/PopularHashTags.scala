@@ -4,6 +4,7 @@ import org.apache.spark.streaming._
 import org.apache.spark.streaming
 import org.apache.spark.streaming.twitter._
 import org.apache.spark.streaming.StreamingContext._
+import org.apache.spark.streaming.dstream.DStream
 //import org.apache.log4j._
 
 object PopularHashtags {
@@ -11,7 +12,7 @@ object PopularHashtags {
   /** Makes sure only ERROR messages get logged to avoid log spam. */
   def setupLogging() = {
     import org.apache.log4j.{Level, Logger}
-    // Logger.getLogger("org").setLevel(Level.ERROR)
+    Logger.getLogger("org").setLevel(Level.ERROR)
     val rootLogger = Logger.getRootLogger()
     rootLogger.setLevel(Level.ERROR)
   }
@@ -54,7 +55,7 @@ object PopularHashtags {
     val hashtags = tweetwords.filter(word => word.startsWith("#"))
 
     // Map each hashtag to a key/value pair of (hashtag, 1) so we can count them up by adding up the values
-    val hashtagKeyValues = hashtags.map(hashtag => (hashtag, 1))
+    val hashtagKeyValues: DStream[(String, Int)] = hashtags.map(hashtag => (hashtag, 1))
 
     // Now count them up over a 5 minute window sliding every ten second
     val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow( (x,y) => x + y, (x,y) => x - y, Seconds(3000), Seconds(10))
